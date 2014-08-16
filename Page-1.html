@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Study Links</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+		style{
+				font-size: 45px;
+
+		}
+
+		td{
+			height:30px;
+			width: 30px;
+			border-style:dotted solid double dashed;
+			text-align:center;
+			box-shadow: 5px 5px 5px #888888;
+		}
+		p{
+
+			background-color: blue;
+		}
+
+		</style>
+	</head>
+	<body>
+<p>Hi this is my work page & study links</p>
+		<table border=1  style="width:300px" >
+		<tr>
+		<td onclick="getox(this);"></td>
+		<td onclick="getox(this);"></td>
+		<td onclick="getox(this);"></td>
+		</tr>
+		<tr>
+		<td onclick="getox(this);"></td>
+		<td onclick="getox(this);"></td>
+		<td onclick="getox(this);"></td>
+		</tr>
+		<tr>
+		<td onclick="getox(this);"></td>
+		<td onclick="getox(this);"></td>
+		<td onclick="getox(this);"></td>
+		</tr>
+		</table>
+		<script>
+			var player = true;
+			function getox(cell){
+			//alert(player);
+				if(player==true)
+				{
+					cell.innerHTML = "x";
+					player=false;
+					
+				}
+				else
+				{
+					cell.innerHTML = "0";
+					player= true;
+				}
+					
+				
+			}
+		</script>
+	</body>
+</html>

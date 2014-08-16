@@ -4,10 +4,7 @@
 		<title>My Study Links</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<style>
-		style{
-				font-size: 45px;
-
-		}
+		
 
 		td{
 			height:30px;
@@ -16,27 +13,21 @@
 			text-align:center;
 			box-shadow: 5px 5px 5px #888888;
 		}
-		p{
-
-			background-color: blue;
-		}
+		
 
 		</style>
 	</head>
 	<body>
-<h1>Hi this is my work page & study links</hi>
-	<p><h2>List of HTML</h2>
+    <h1>Hi this is my work page & study links</h1>
+	<p><h2>List of HTML</h2></p>
 		<h3> Favorit tags</h3><br>
 
+<p class="pp">this is pp here</p>
+<p>this is normal p</p>
 
-		a href=""></a> <br> <a href="http://www.w3schools.com">Visit W3Schools.com!</a> <br><br><br>
-
-		img src="" alt="" width="" height=""><br> <!--IMG-->
-		<img src="w3schools.jpg" alt="W3Schools.com" width="1-0" height="14">
-
-		<div id="first div"> Hi</div> <!--DIV >> ID = First-->
+		<div id="firstdiv"> Hi</div> <!--DIV >> ID = First-->
 		<div class="number"> 050-3303600</div> <!--DIV >> class = NO'-->
-
+<br>
 
 <div id="Tags"> 
 		<h3>Tags (style)</h3>
@@ -58,7 +49,7 @@
 
 
 		<h3>Tables</h3>
-	<div id="table">
+	<div class="table">
 					<table>
 					<tr>
 					  <td>row 1, cell 1</td>
@@ -89,14 +80,14 @@
 					</div>
 
 
-
+<div>
 	<h3>Iframe</h3>
 
 
-	<iframe src="http://www.w3schools.com" target=file:///C:/Users/Tomer/Documents/GitHub/My-Study-Page/Page-1.html  width="50%" height="400" ></iframe>
+	<iframe src="http://www.ynet.co.il" target=file:///C:/Users/Tomer/Documents/GitHub/My-Study-Page/Page-1.html  width="50%" height="400" ></iframe>
+</div>
 
-
-	<h3>TicTacTow</h3>
+	<div><h3>TicTacTow</h3>
 
 		<table border=1  style="width:300px" >
 		<tr>
@@ -115,7 +106,7 @@
 		<td onclick="getox(this);"></td>
 		</tr>
 		</table>
-
+</div>
 
 		<script>
 			var player = true;
@@ -138,7 +129,7 @@
 		</script>
 
 
-	<h3>Form/Text box/Radio</h3>
+	<h3>Form/Text box/Radio/checkbox/submit</h3>
 
 		<form action="http://www.mgweb.co.il" >
     	<div class="form_wrapper">
@@ -161,6 +152,21 @@
     <div class="form_wrapper">
         <input type="radio" name="employment" value="employed" /> employed<br />
         <input type="radio" name="employment" value="unemployed" /> unemployed
+    </div>
+</form>
+
+
+<form action="http://www.mgweb.co.il">
+    <div class="form_wrapper">
+        <input type="checkbox" name="hobby" value="swimming" /> Swimming<br />
+        <input type="checkbox" name="hobby" value="dancing" /> Dancing
+    </div>
+</form>
+
+<form name="input" action="html_form_action.php" method="get">
+    <div class="form_wrapper">
+        Username: <input type="text" name="user" />
+        <input type="submit" value="Submit" />
     </div>
 </form>
 
